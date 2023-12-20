@@ -32,7 +32,7 @@ function distance_check(dst){
 }
 function discountAmount(dst,coin,v,rate,price){
     let dis=rate*price;
-    return dis+distance_check(dst)+redeemCoin(coin)+checkVoucher(v);
+    return dis;
 }
 function payable(price,v,coin,dst){
     let total =price- checkVoucher(v)-redeemCoin(coin)-distance_check(dst);
