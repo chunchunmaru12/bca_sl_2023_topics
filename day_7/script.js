@@ -50,3 +50,24 @@ function checkResult(checked_value){
     }
 }
 console.log("Checking user status : "+checkResult(3))
+
+
+//4.without parameters and return type
+function showUserGoal(){
+    let goal = 45
+    let goal_status=""
+    if(goal>=0 && goal <= 39.99){
+        goal_status="Beginner level"
+    }else if(goal>=40 && goal <= 64.99){
+        gial_status="Intermediate Level"
+    }else if(goal>=65 && goal <=89.99){
+        goal_status="Advanced Level"
+    }else if(goal>=90 && goal <=100){
+        goal_status="Expert level"
+    }else{
+        goal_status="Plese set your goal between 0-100"
+    }
+    return goal_status
+}
+
+console.log("User goal checker: "+showUserGoal())
