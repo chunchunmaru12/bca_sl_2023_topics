@@ -20,7 +20,6 @@ button.style.cursor="pointer"
 button.style.padding="5px"
 button.style.boxShadow="2px"
 button.style.borderRadius="50px"
-button.style
 
 //classlist property
 //add() and remove() method
